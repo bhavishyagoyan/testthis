@@ -1,0 +1,37 @@
+/* style sheet created for externalstyle.it is possible to reuse this file as muhc as u would like.*/
+
+
+
+	body{
+	background-color:#b8b894;
+	font-size: 150%;
+}
+
+header{
+	background-color: #ffc34d;
+	text-align: center;
+}
+
+h1{
+	color: #ffffff;
+}
+nav{
+	font-variant: small-caps;
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 150%;
+}
+
+h2{
+	color:#ffc34d;
+	background: #00b7ea;
+}
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
+}
+footer{
+	background-color: #ffc34d;
+}

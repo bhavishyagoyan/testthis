@@ -1,0 +1,78 @@
+/*http://css-snippets.com/drop-down-navigation */
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccffff;
+}
+
+nav ul {
+  list-style:none;
+  background-color: #ff704d;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+    width: 20%;
+    border-right: 3px solid #660000;
+    height: 50px;
+    line-height: 50px;
+    font-size: 140%;
+    display: inline-block;
+    margin-right: 0;
+  }
+
+nav li:last-child{
+	    border-right: none;
+}
+
+nav li li{
+	    border-right: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  padding-left: 15px;
+  transition: .5s background-color:#b3b3ff;
+}
+
+nav a:hover {
+  background-color: #b30000;
+}
+
+nav a.active {
+  background-color: #ffcccc;
+  color: #444;
+  cursor: default;
+}
+
+/* Sub Menus */
+nav li li {
+  font-size: .8em;
+}
+
+nav > ul > li {
+   text-align: center;
+}
+
+nav > ul > li > a {
+    padding-left: 0;
+}
+
+/* Sub Menus */
+nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+nav li:hover ul {
+   display: block;
+}
+
+nav li ul li {
+   display: block;
+ }
